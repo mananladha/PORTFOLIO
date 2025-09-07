@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manan Maheshwari - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+<nav id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="logo" data-section="home">Manan Maheshwari</a>
+    <ul class="nav-links">
+      <li><a href="#skills" data-section="skills">Skills</a></li>
+      <li><a href="#experience" data-section="experience">Experience</a></li>
+      <li><a href="#projects" data-section="projects">Projects</a></li>
+      <li><a href="#about" data-section="about">About</a></li>
+      <li><a href="#contact" data-section="contact">Connect</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="search-container">
+        <button class="search-btn" id="searchBtn">🔍</button>
+        <div class="search-box" id="searchBox">
+          <div class="search-input-container">
+            <input type="text" placeholder="Search..." id="searchInput">
+            <button class="search-close" id="searchClose">✕</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="section">
+  <div class="container">
+    <div class="home-layout">
+      <div class="home-content">
+        <div class="greeting">Hey, I'm Manan Maheshwari 👋</div>
+        <h1 class="main-title"><span class="title-accent">Full-Stack</span><br>Developer</h1>
+        <p class="home-description">I'm a full-stack developer based in India, I'll help you build beautiful websites your users will love.</p>
+        <div class="home-buttons">
+          <a href="#contact" class="btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn-secondary">Browse Projects</a>
+        </div>
+        <div class="social_media">
+          <a href="https://github.com/mananladha" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/MananLadha" target="_blank"><i class="fab fa-x"></i></a>
+          <a href="https://www.instagram.com/mananladha.01/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/maheshwarimanan/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="home-image">
+        <div class="image-circle">
+          <img src="mananimage.jpg" alt="Manan Maheshwari" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="container">
+    <h1 class="section-title-skills">Skills<span class="skillsdot">.</span></h1>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <h3>Frontend Development</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.Js</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">⚡</div>
+        <h3>Backend Development</h3>
+        <ul>
+          <li>Node.Js</li>
+          <li>MongoDB</li>
+          <li>Express.Js</li>
+          <li>Vercel</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h3>Web Design</h3>
+        <ul>
+          <li>UI/UX Design</li>
+          <li>Responsive Design</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📱</div>
+        <h3>Tech. Language</h3>
+        <ul>
+          <li>Java</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>C#</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+    <h1 class="section-title-experience">Experiences<span class="skillsdot">.</span></h1>
+
+    <div class="experience-tabs">
+        <div class="active">MHC - VIT Bhopal</div>
+        <div>FYI - VIT Bhopal</div>
+        <div>NA</div>
+    </div>
+
+    <div class="experience-contents">
+        <div class="experience-content">
+            <h3>Designer @ MRC</h3>
+            <p class="duration">Sep 2025 - Present</p>
+            <ul>
+                <li>Developed a consistent visual identity for the club’s flagship events that highlighted Rajasthan’s culture..</li>
+                <li>Collaborated with organizers to ensure that designs aligned with event themes, enhancing overall participation and engagement.</li>
+                <li>Censured that the designs reflected both cultural authenticity and youthful creativity, making the events visually memorable.</li>
+            </ul>
+        </div>
+
+        <div class="experience-content" style="display:none;">
+            <h3>Designer @ FYI</h3>
+            <p class="duration">Nov 2024 - Sep 2025</p>
+            <ul>
+                <li>Designed posters, banners, and digital media for college events.</li>
+                <li>Collaborated with the core team to create visually engaging designs.</li>
+                <li>Contributed to branding, event identity, and creative direction.</li>
+            </ul>
+        </div>
+
+        <div class="experience-content" style="display:none;">
+            <h3>NA</h3>
+            <p class="duration">NA</p>
+            <ul>
+                <li>--Surely COMEBACK will be HARDER--</li>
+                <li>Peace out!</li>
+                <li>---</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">My Projects.</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-overlay"><h3>Virtual Campus Tour</h3></div>
+        </div>
+        <div class="project-content">
+          <h3>360-degree</h3>
+          <p>A 360 degree campus tour for The VIT Bhopal like Google Street view</p>
+          <div class="project-tech">
+            <span>HMTL</span>
+            <span>CSS</span>
+            <span>Figma</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="https://shoubhik95.github.io/kk/">Live Demo</a>
+            <a href="#" class="project-link">With Team</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-overlay"><h3>Infinite Runner</h3></div>
+        </div>
+        <div class="project-content">
+          <h3>2-D Game</h3>
+          <p>user-friendly game for children to understand basic mathematics</p>
+          <div class="project-tech">
+            <span>C#</span>
+            <span>Unity Engine</span>
+            <span>Assets</span>
+          </div>
+          <div class="project-links">
+            <a href="https://shoubhik95.github.io/kk/" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">With Team</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-overlay"><h3>Coming Soon</h3></div>
+        </div>
+        <div class="project-content">
+          <h3>For My Comeback</h3>
+          <p>A very big project beyond your expectation</p>
+          <div class="project-tech">
+            <span>HTML-CSS</span>
+            <span>JavaScript</span>
+            <span>MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live Demo</a>
+            <a href="#" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title-about">About Me<span class="aboutdot">.</span></h2>
+    <div class="about-content">
+      <div class="about-text">
+        <h3>Hello, I'm Manan Maheshwari 👋</h3>
+        <p>I’m a passionate <strong>Full-Stack Developer</strong> from India, currently pursuing my Computer Science Engineering at VIT Bhopal. I love building modern, responsive, and user-friendly web applications that make a real impact.</p>
+        <p>My core skills include <strong>HTML, CSS, JavaScript, C++, and Node.js</strong>, along with experience in databases like <strong>MongoDB</strong> and deployment tools like <strong>Vercel</strong>. I also enjoy working on design aspects with <strong>Figma</strong> and Photoshop.</p>
+        <p>Beyond coding, I’m always curious about <strong>AI/ML</strong> and innovative technologies that can transform user experiences. When I’m not developing, I enjoy exploring new tools, contributing to student clubs, and collaborating on exciting projects.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <h4>3+</h4>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat">
+            <h4>1+</h4>
+            <p>Years of Coding</p>
+          </div>
+          <div class="stat">
+            <h4>∞</h4>
+            <p>Passion to Learn</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>Let's work together!</h3>
+        <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate!</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div><h4>Email</h4><a href="mailto:manan.ladha@gmail.com" class="contact-link">manan.ladha@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div><h4>Phone</h4><a href="tel:+919413180001" class="contact-link">+91-9413180001</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p><a href="https://www.google.com/maps/search/Bhilwara,+Rajasthan,+India" target="_blank" class="contact-link">Bhilwara , Rajasthan</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Manan Maheshwari</h3>
+      <p>Full-Stack Developer passionate about building beautiful and functional web experiences.</p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experiences</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:manan.ladha@gmail.com">manan.ladha@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919413180001" class="contact-link">+91-9413180001</a></p>
+      <p>Bhilwara, Rajasthan</p>
+      <div class="footer-social">
+        <a href="https://github.com/mananladha" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/MananLadha" target="_blank"><i class="fab fa-x"></i></a>
+        <a href="https://www.instagram.com/mananladha.01/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/maheshwarimanan/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Manan Maheshwari. All rights reserved.</p>
+  </div> 
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
