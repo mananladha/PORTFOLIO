@@ -58,7 +58,7 @@ function AboutPreview() {
           >
 
             <img
-              src="/src/assets/mananimage.jpg"
+              src="/mananimage.jpg"
               alt="Manan"
               className="
               w-[350px]

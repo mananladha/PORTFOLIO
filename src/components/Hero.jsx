@@ -122,8 +122,7 @@ function Hero() {
           >
 
             <img
-              src="/src/assets/mananimage.jpg"
-              alt="Manan"
+              src="/mananimage.jpg"
               className="
               w-[350px]
               md:w-[400px]
