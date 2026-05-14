@@ -64,7 +64,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             p-5
             rounded-[40px]
             shadow-2xl
-            `,children:(0,Q.jsx)(`img`,{src:`/src/assets/mananimage.jpg`,alt:`Manan`,className:`
+            `,children:(0,Q.jsx)(`img`,{src:`/mananimage.jpg`,className:`
               w-[350px]
               md:w-[400px]
               rounded-[30px]
@@ -86,14 +86,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4`,children:`EXPERIENCE`}),(0,Q.jsx)(`h1`,{className:`text-5xl font-bold`,children:`My Journey`})]}),(0,Q.jsxs)(`div`,{className:`max-w-4xl mx-auto relative`,children:[(0,Q.jsx)(`div`,{className:`absolute left-1/2 top-0 w-1 h-full bg-purple-500/30 transform -translate-x-1/2`}),(0,Q.jsx)(`div`,{className:`space-y-20`,children:[{year:`Sep 2025 - Present`,title:`Co Lead - Design Team`,company:`FYI CLUB - VIT BHOPAL`,description:`Leading the design team by managing event branding, social media creatives, posters, and visual identity for club activities.`},{year:`Nov 2024 - Sep 2025`,title:`Graphic Designer`,company:`FYI CLUB - VIT BHOPAL`,description:`Designed posters, promotional materials, event assets, and digital creatives for multiple technical and cultural events.`},{year:`Aug 2025 - Present`,title:`Graphic Designer`,company:`MHARO RAJASTHAN CLUB`,description:`Creating event branding, social media posts, and promotional graphics for cultural activities and club events.`}].map((e,t)=>(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.7,delay:t*.2},viewport:{once:!0},className:`relative flex items-center ${t%2==0?`justify-start`:`justify-end`}`,children:[(0,Q.jsxs)(`div`,{className:`w-full md:w-[45%] bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-purple-400 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(168,85,247,0.2)] transition duration-300`,children:[(0,Q.jsx)(`h3`,{className:`text-purple-400 text-lg font-semibold mb-2`,children:e.year}),(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.title}),(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.company}),(0,Q.jsx)(`p`,{className:`text-gray-300 leading-relaxed`,children:e.description})]}),(0,Q.jsx)($.div,{initial:{scale:0},whileInView:{scale:1},transition:{duration:.4,delay:t*.2},viewport:{once:!0},className:`absolute left-1/2 w-6 h-6
                 bg-purple-500 rounded-full border-4 border-[#050816]
-                transform -translate-x-1/2`})]},t))})]})]})}function zm(){return(0,Q.jsxs)(`section`,{className:`bg-transparent relative z-10 text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)($.div,{animate:{y:[0,-20,0],x:[0,10,0]},transition:{duration:6,repeat:1/0},className:`
-        absolute top-20 left-20
-        w-72 h-72
-        bg-purple-500
-        rounded-full
-        blur-3xl
-        opacity-20
-        `}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`text-center mb-24`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4`,children:`PROJECTS`}),(0,Q.jsx)(`h1`,{className:`text-5xl md:text-6xl font-bold mb-6`,children:`Featured Work`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg max-w-2xl mx-auto`,children:`Some of the projects I’ve built using modern technologies, focusing on performance, scalability, and user experience.`})]}),(0,Q.jsx)(`div`,{className:`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10`,children:[{title:`360 Campus Tour`,description:`A 360 degree campus tour for The VIT Bhopal like Google Street view`,tech:`Pendulam • JS `,gradient:`from-purple-500/30 to-cyan-500/30`},{title:`Expense-Tracker`,description:`Real-time MERN stack chat application with authentication and live messaging.`,tech:`Render • Node.js • MongoDB`,gradient:`from-cyan-500/30 to-purple-500/30`},{title:`Infinte Runner 2D Game`,description:`user-friendly game for children to understand basic mathematics.`,tech:`Unity Engine • C# • Assets`,gradient:`from-pink-500/30 to-purple-500/30`}].map((e,t)=>(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.7,delay:t*.2},viewport:{once:!0},whileHover:{y:-10},className:`
+                transform -translate-x-1/2`})]},t))})]})]})}function zm(e){return Sm({tag:`svg`,attr:{viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,strokeLinecap:`round`,strokeLinejoin:`round`},child:[{tag:`path`,attr:{d:`M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6`},child:[]},{tag:`polyline`,attr:{points:`15 3 21 3 21 9`},child:[]},{tag:`line`,attr:{x1:`10`,y1:`14`,x2:`21`,y2:`3`},child:[]}]})(e)}function Bm(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 right-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`text-center mb-24`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4 tracking-widest`,children:`PROJECTS`}),(0,Q.jsx)(`h1`,{className:`text-5xl md:text-6xl font-bold mb-6`,children:`Featured Work`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed`,children:`A collection of projects built using modern technologies, focusing on performance, beautiful UI, scalability, and seamless user experiences.`})]}),(0,Q.jsx)(`div`,{className:`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10`,children:[{title:`360 Campus Tour`,description:`A 360 degree campus tour for VIT Bhopal inspired by Google Street View with immersive navigation experience.`,tech:`Pendulum • JavaScript • 360° Experience`,image:`/campus-tour.png`,live:`https://interactive-360-virtual-tour.netlify.app/`,github:`https://github.com/mananladha`,gradient:`from-purple-500/30 to-cyan-500/30`},{title:`Expense Tracker`,description:`Modern expense tracking web application with analytics, clean UI and real-time transaction management.`,tech:`React • Node.js • MongoDB • Express`,image:`/expense-tracker.png`,live:`https://expense-tracker.mananladha.in/`,github:`https://github.com/mananladha/expense-tracker`,gradient:`from-cyan-500/30 to-purple-500/30`},{title:`Infinite Runner 2D Game`,description:`Interactive educational game designed for children to learn mathematics in a fun and engaging way.`,tech:`Unity • C# • Game Development`,image:`/infinite-runner.png`,github:`https://github.com/mananladha`,gradient:`from-pink-500/30 to-purple-500/30`}].map((e,t)=>(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.7,delay:t*.2},viewport:{once:!0},whileHover:{y:-10,scale:1.02},className:`
             relative
             bg-white/10
             backdrop-blur-2xl
@@ -101,31 +94,58 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             rounded-[32px]
             overflow-hidden
             hover:border-purple-400
-            transition duration-300
+            transition duration-500
             hover:shadow-[0_0_50px_rgba(168,85,247,0.25)]
+            group
             `,children:[(0,Q.jsx)(`div`,{className:`
+              absolute inset-0
+              bg-gradient-to-br
+              from-purple-500/5
+              to-cyan-500/5
+              opacity-0
+              group-hover:opacity-100
+              transition duration-500
+              `}),(0,Q.jsx)(`div`,{className:`
+              relative
               h-56
+              overflow-hidden
               bg-gradient-to-br
               ${e.gradient}
-              flex items-center justify-center
-              `,children:(0,Q.jsx)(`h2`,{className:`text-3xl font-bold text-white/80`,children:`Project`})}),(0,Q.jsxs)(`div`,{className:`p-8`,children:[(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.title}),(0,Q.jsx)(`p`,{className:`text-gray-300 leading-relaxed mb-6`,children:e.description}),(0,Q.jsx)(`div`,{className:`text-purple-400 font-medium mb-8`,children:e.tech}),(0,Q.jsxs)(`div`,{className:`flex gap-4`,children:[(0,Q.jsx)(`button`,{className:`
-                  bg-gradient-to-r from-purple-500 to-purple-700
-                  hover:scale-105
-                  transition duration-300
-                  px-6 py-3
-                  rounded-full
-                  font-semibold
-                  shadow-[0_0_30px_rgba(168,85,247,0.4)]
-                  `,children:`Live Demo`}),(0,Q.jsx)(`button`,{className:`
-                  border border-white/20
-                  bg-white/5
-                  hover:bg-white/10
-                  hover:scale-105
-                  transition duration-300
-                  px-6 py-3
-                  rounded-full
-                  font-semibold
-                  `,children:`GitHub`})]})]})]},t))})]})}function Bm(){return(0,Q.jsxs)(`section`,{className:`bg-transparent relative z-10 text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)($.div,{animate:{y:[0,-20,0],x:[0,10,0]},transition:{duration:6,repeat:1/0},className:`
+              `,children:(0,Q.jsx)(`img`,{src:e.image,alt:e.title,className:`
+                w-full
+                h-full
+                object-cover
+                transition duration-700
+                group-hover:scale-110
+                `})}),(0,Q.jsxs)(`div`,{className:`relative p-8 z-10`,children:[(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.title}),(0,Q.jsx)(`p`,{className:`text-gray-300 leading-relaxed mb-6`,children:e.description}),(0,Q.jsx)(`div`,{className:`flex flex-wrap gap-2 mb-8`,children:e.tech.split(` • `).map((e,t)=>(0,Q.jsx)(`span`,{className:`
+                    px-3 py-1
+                    bg-purple-500/10
+                    border border-purple-400/20
+                    text-purple-300
+                    rounded-full
+                    text-sm
+                    `,children:e},t))}),(0,Q.jsxs)(`div`,{className:`flex gap-4`,children:[e.live&&(0,Q.jsxs)(`a`,{href:e.live,target:`_blank`,rel:`noopener noreferrer`,className:`
+                    flex items-center gap-2
+                    bg-gradient-to-r
+                    from-purple-500
+                    to-cyan-500
+                    hover:scale-105
+                    transition duration-300
+                    px-6 py-3
+                    rounded-full
+                    font-semibold
+                    shadow-[0_0_30px_rgba(168,85,247,0.4)]
+                    `,children:[(0,Q.jsx)(zm,{}),`Live Demo`]}),e.github&&(0,Q.jsxs)(`a`,{href:e.github,target:`_blank`,rel:`noopener noreferrer`,className:`
+                    flex items-center gap-2
+                    border border-white/20
+                    bg-white/5
+                    hover:bg-white/10
+                    hover:scale-105
+                    transition duration-300
+                    px-6 py-3
+                    rounded-full
+                    font-semibold
+                    `,children:[(0,Q.jsx)(Am,{}),`GitHub`]})]})]})]},t))})]})}function Vm(){return(0,Q.jsxs)(`section`,{className:`bg-transparent relative z-10 text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)($.div,{animate:{y:[0,-20,0],x:[0,10,0]},transition:{duration:6,repeat:1/0},className:`
         absolute top-20 left-20
         w-72 h-72
         bg-purple-500
@@ -140,7 +160,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             p-5
             rounded-[40px]
             shadow-2xl
-            `,children:(0,Q.jsx)(`img`,{src:`/src/assets/mananimage.jpg`,alt:`Manan`,className:`
+            `,children:(0,Q.jsx)(`img`,{src:`/mananimage.jpg`,alt:`Manan`,className:`
               w-[350px]
               md:w-[400px]
               rounded-[30px]
@@ -161,7 +181,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               p-8
               hover:border-cyan-400
               transition duration-300
-              `,children:[(0,Q.jsx)(`h2`,{className:`text-5xl font-bold text-cyan-400 mb-3`,children:`1+`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg`,children:`Years Learning`})]})]})]})]})]})}var Vm=class{constructor(e=0,t=`Network Error`){this.status=e,this.text=t}},Hm={origin:`https://api.emailjs.com`,blockHeadless:!1,storageProvider:(()=>{if(!(typeof localStorage>`u`))return{get:e=>Promise.resolve(localStorage.getItem(e)),set:(e,t)=>Promise.resolve(localStorage.setItem(e,t)),remove:e=>Promise.resolve(localStorage.removeItem(e))}})()},Um=e=>e?typeof e==`string`?{publicKey:e}:e.toString()===`[object Object]`?e:{}:{},Wm=(e,t=`https://api.emailjs.com`)=>{if(!e)return;let n=Um(e);Hm.publicKey=n.publicKey,Hm.blockHeadless=n.blockHeadless,Hm.storageProvider=n.storageProvider,Hm.blockList=n.blockList,Hm.limitRate=n.limitRate,Hm.origin=n.origin||t},Gm=async(e,t,n={})=>{let r=await fetch(Hm.origin+e,{method:`POST`,headers:n,body:t}),i=await r.text(),a=new Vm(r.status,i);if(r.ok)return a;throw a},Km=(e,t,n)=>{if(!e||typeof e!=`string`)throw`The public key is required. Visit https://dashboard.emailjs.com/admin/account`;if(!t||typeof t!=`string`)throw`The service ID is required. Visit https://dashboard.emailjs.com/admin`;if(!n||typeof n!=`string`)throw`The template ID is required. Visit https://dashboard.emailjs.com/admin/templates`},qm=e=>{if(e&&e.toString()!==`[object Object]`)throw`The template params have to be the object. Visit https://www.emailjs.com/docs/sdk/send/`},Jm=e=>e.webdriver||!e.languages||e.languages.length===0,Ym=()=>new Vm(451,`Unavailable For Headless Browser`),Xm=(e,t)=>{if(!Array.isArray(e))throw`The BlockList list has to be an array`;if(typeof t!=`string`)throw`The BlockList watchVariable has to be a string`},Zm=e=>!e.list?.length||!e.watchVariable,Qm=(e,t)=>e instanceof FormData?e.get(t):e[t],$m=(e,t)=>{if(Zm(e))return!1;Xm(e.list,e.watchVariable);let n=Qm(t,e.watchVariable);return typeof n==`string`?e.list.includes(n):!1},eh=()=>new Vm(403,`Forbidden`),th=(e,t)=>{if(typeof e!=`number`||e<0)throw`The LimitRate throttle has to be a positive number`;if(t&&typeof t!=`string`)throw`The LimitRate ID has to be a non-empty string`},nh=async(e,t,n)=>{let r=Number(await n.get(e)||0);return t-Date.now()+r},rh=async(e,t,n)=>{if(!t.throttle||!n)return!1;th(t.throttle,t.id);let r=t.id||e;return await nh(r,t.throttle,n)>0?!0:(await n.set(r,Date.now().toString()),!1)},ih=()=>new Vm(429,`Too Many Requests`),ah=async(e,t,n,r)=>{let i=Um(r),a=i.publicKey||Hm.publicKey,o=i.blockHeadless||Hm.blockHeadless,s=i.storageProvider||Hm.storageProvider,c={...Hm.blockList,...i.blockList},l={...Hm.limitRate,...i.limitRate};return o&&Jm(navigator)?Promise.reject(Ym()):(Km(a,e,t),qm(n),n&&$m(c,n)?Promise.reject(eh()):await rh(location.pathname,l,s)?Promise.reject(ih()):Gm(`/api/v1.0/email/send`,JSON.stringify({lib_version:`4.4.1`,user_id:a,service_id:e,template_id:t,template_params:n}),{"Content-type":`application/json`}))},oh=e=>{if(!e||e.nodeName!==`FORM`)throw`The 3rd parameter is expected to be the HTML form element or the style selector of the form`},sh=e=>typeof e==`string`?document.querySelector(e):e,ch={init:Wm,send:ah,sendForm:async(e,t,n,r)=>{let i=Um(r),a=i.publicKey||Hm.publicKey,o=i.blockHeadless||Hm.blockHeadless,s=Hm.storageProvider||i.storageProvider,c={...Hm.blockList,...i.blockList},l={...Hm.limitRate,...i.limitRate};if(o&&Jm(navigator))return Promise.reject(Ym());let u=sh(n);Km(a,e,t),oh(u);let d=new FormData(u);return $m(c,d)?Promise.reject(eh()):await rh(location.pathname,l,s)?Promise.reject(ih()):(d.append(`lib_version`,`4.4.1`),d.append(`service_id`,e),d.append(`template_id`,t),d.append(`user_id`,a),Gm(`/api/v1.0/email/send-form`,d))},EmailJSResponseStatus:Vm};ch.init(`QC0tm7J1LheIuk7J3`);function lh(){let e=(0,b.useRef)(),t=async e=>{e.preventDefault();let t={name:e.target.user_name.value,email:e.target.user_email.value,message:e.target.message.value};try{let n=await ch.send(`service_wrzr9pw`,`template_p4auzhn`,t,`QC0tm7J1LheIuk7J3`);console.log(n),alert(`Message Sent Successfully!`),e.target.reset()}catch(e){console.log(e),alert(`Failed to send message.`)}};return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`
+              `,children:[(0,Q.jsx)(`h2`,{className:`text-5xl font-bold text-cyan-400 mb-3`,children:`1+`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg`,children:`Years Learning`})]})]})]})]})]})}var Hm=class{constructor(e=0,t=`Network Error`){this.status=e,this.text=t}},Um={origin:`https://api.emailjs.com`,blockHeadless:!1,storageProvider:(()=>{if(!(typeof localStorage>`u`))return{get:e=>Promise.resolve(localStorage.getItem(e)),set:(e,t)=>Promise.resolve(localStorage.setItem(e,t)),remove:e=>Promise.resolve(localStorage.removeItem(e))}})()},Wm=e=>e?typeof e==`string`?{publicKey:e}:e.toString()===`[object Object]`?e:{}:{},Gm=(e,t=`https://api.emailjs.com`)=>{if(!e)return;let n=Wm(e);Um.publicKey=n.publicKey,Um.blockHeadless=n.blockHeadless,Um.storageProvider=n.storageProvider,Um.blockList=n.blockList,Um.limitRate=n.limitRate,Um.origin=n.origin||t},Km=async(e,t,n={})=>{let r=await fetch(Um.origin+e,{method:`POST`,headers:n,body:t}),i=await r.text(),a=new Hm(r.status,i);if(r.ok)return a;throw a},qm=(e,t,n)=>{if(!e||typeof e!=`string`)throw`The public key is required. Visit https://dashboard.emailjs.com/admin/account`;if(!t||typeof t!=`string`)throw`The service ID is required. Visit https://dashboard.emailjs.com/admin`;if(!n||typeof n!=`string`)throw`The template ID is required. Visit https://dashboard.emailjs.com/admin/templates`},Jm=e=>{if(e&&e.toString()!==`[object Object]`)throw`The template params have to be the object. Visit https://www.emailjs.com/docs/sdk/send/`},Ym=e=>e.webdriver||!e.languages||e.languages.length===0,Xm=()=>new Hm(451,`Unavailable For Headless Browser`),Zm=(e,t)=>{if(!Array.isArray(e))throw`The BlockList list has to be an array`;if(typeof t!=`string`)throw`The BlockList watchVariable has to be a string`},Qm=e=>!e.list?.length||!e.watchVariable,$m=(e,t)=>e instanceof FormData?e.get(t):e[t],eh=(e,t)=>{if(Qm(e))return!1;Zm(e.list,e.watchVariable);let n=$m(t,e.watchVariable);return typeof n==`string`?e.list.includes(n):!1},th=()=>new Hm(403,`Forbidden`),nh=(e,t)=>{if(typeof e!=`number`||e<0)throw`The LimitRate throttle has to be a positive number`;if(t&&typeof t!=`string`)throw`The LimitRate ID has to be a non-empty string`},rh=async(e,t,n)=>{let r=Number(await n.get(e)||0);return t-Date.now()+r},ih=async(e,t,n)=>{if(!t.throttle||!n)return!1;nh(t.throttle,t.id);let r=t.id||e;return await rh(r,t.throttle,n)>0?!0:(await n.set(r,Date.now().toString()),!1)},ah=()=>new Hm(429,`Too Many Requests`),oh=async(e,t,n,r)=>{let i=Wm(r),a=i.publicKey||Um.publicKey,o=i.blockHeadless||Um.blockHeadless,s=i.storageProvider||Um.storageProvider,c={...Um.blockList,...i.blockList},l={...Um.limitRate,...i.limitRate};return o&&Ym(navigator)?Promise.reject(Xm()):(qm(a,e,t),Jm(n),n&&eh(c,n)?Promise.reject(th()):await ih(location.pathname,l,s)?Promise.reject(ah()):Km(`/api/v1.0/email/send`,JSON.stringify({lib_version:`4.4.1`,user_id:a,service_id:e,template_id:t,template_params:n}),{"Content-type":`application/json`}))},sh=e=>{if(!e||e.nodeName!==`FORM`)throw`The 3rd parameter is expected to be the HTML form element or the style selector of the form`},ch=e=>typeof e==`string`?document.querySelector(e):e,lh={init:Gm,send:oh,sendForm:async(e,t,n,r)=>{let i=Wm(r),a=i.publicKey||Um.publicKey,o=i.blockHeadless||Um.blockHeadless,s=Um.storageProvider||i.storageProvider,c={...Um.blockList,...i.blockList},l={...Um.limitRate,...i.limitRate};if(o&&Ym(navigator))return Promise.reject(Xm());let u=ch(n);qm(a,e,t),sh(u);let d=new FormData(u);return eh(c,d)?Promise.reject(th()):await ih(location.pathname,l,s)?Promise.reject(ah()):(d.append(`lib_version`,`4.4.1`),d.append(`service_id`,e),d.append(`template_id`,t),d.append(`user_id`,a),Km(`/api/v1.0/email/send-form`,d))},EmailJSResponseStatus:Hm};lh.init(`QC0tm7J1LheIuk7J3`);function uh(){let e=(0,b.useRef)(),t=async e=>{e.preventDefault();let t={name:e.target.user_name.value,email:e.target.user_email.value,message:e.target.message.value};try{let n=await lh.send(`service_wrzr9pw`,`template_p4auzhn`,t,`QC0tm7J1LheIuk7J3`);console.log(n),alert(`Message Sent Successfully!`),e.target.reset()}catch(e){console.log(e),alert(`Failed to send message.`)}};return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`
         max-w-7xl mx-auto
         bg-white/10
         backdrop-blur-2xl
@@ -258,15 +278,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   rounded-2xl
                   font-semibold
                   shadow-[0_0_40px_rgba(168,85,247,0.4)]
-                  `,children:`Send Message`})]})})]})]})]})}function uh(){return(0,Q.jsxs)(Q.Fragment,{children:[(0,Q.jsx)(lm,{}),(0,Q.jsx)(Lm,{}),(0,Q.jsx)(Rm,{}),(0,Q.jsx)(zm,{}),(0,Q.jsx)(Bm,{}),(0,Q.jsx)(lh,{})]})}function dh(){return(0,Q.jsxs)(`div`,{className:`min-h-screen bg-transparent text-white px-8 pt-40 pb-20 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)(`div`,{className:`text-center mb-20`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4`,children:`MY SKILLS`}),(0,Q.jsx)(`h1`,{className:`text-5xl font-bold`,children:`Technologies I Work With`})]}),(0,Q.jsx)(`div`,{className:`max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8`,children:[{name:`React`,icon:(0,Q.jsx)(wm,{size:50})},{name:`Node.js`,icon:(0,Q.jsx)(Em,{size:50})},{name:`MongoDB`,icon:(0,Q.jsx)(Pm,{size:50})},{name:`Express.js`,icon:(0,Q.jsx)(Im,{size:50})},{name:`JavaScript`,icon:(0,Q.jsx)(Fm,{size:50})},{name:`Tailwind CSS`,icon:(0,Q.jsx)(Mm,{size:50})},{name:`Python`,icon:(0,Q.jsx)(Tm,{size:50})},{name:`Java`,icon:(0,Q.jsx)(Om,{size:50})},{name:`MySQL`,icon:(0,Q.jsx)(Nm,{size:50})},{name:`Git`,icon:(0,Q.jsx)(jm,{size:50})}].map((e,t)=>(0,Q.jsxs)(`div`,{className:`bg-white/10 backdrop-blur-xl border border-white/10
+                  `,children:`Send Message`})]})})]})]})]})}function dh(){return(0,Q.jsxs)(Q.Fragment,{children:[(0,Q.jsx)(lm,{}),(0,Q.jsx)(Lm,{}),(0,Q.jsx)(Rm,{}),(0,Q.jsx)(Bm,{}),(0,Q.jsx)(Vm,{}),(0,Q.jsx)(uh,{})]})}function fh(){return(0,Q.jsxs)(`div`,{className:`min-h-screen bg-transparent text-white px-8 pt-40 pb-20 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)(`div`,{className:`text-center mb-20`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4`,children:`MY SKILLS`}),(0,Q.jsx)(`h1`,{className:`text-5xl font-bold`,children:`Technologies I Work With`})]}),(0,Q.jsx)(`div`,{className:`max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8`,children:[{name:`React`,icon:(0,Q.jsx)(wm,{size:50})},{name:`Node.js`,icon:(0,Q.jsx)(Em,{size:50})},{name:`MongoDB`,icon:(0,Q.jsx)(Pm,{size:50})},{name:`Express.js`,icon:(0,Q.jsx)(Im,{size:50})},{name:`JavaScript`,icon:(0,Q.jsx)(Fm,{size:50})},{name:`Tailwind CSS`,icon:(0,Q.jsx)(Mm,{size:50})},{name:`Python`,icon:(0,Q.jsx)(Tm,{size:50})},{name:`Java`,icon:(0,Q.jsx)(Om,{size:50})},{name:`MySQL`,icon:(0,Q.jsx)(Nm,{size:50})},{name:`Git`,icon:(0,Q.jsx)(jm,{size:50})}].map((e,t)=>(0,Q.jsxs)(`div`,{className:`bg-white/10 backdrop-blur-xl border border-white/10
             rounded-3xl p-8 flex flex-col items-center justify-center
             hover:scale-105 hover:border-purple-400
-            transition duration-300 shadow-lg`,children:[(0,Q.jsx)(`div`,{className:`text-purple-400 mb-6`,children:e.icon}),(0,Q.jsx)(`h3`,{className:`text-xl font-semibold`,children:e.name})]},t))})]})}function fh(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{className:`text-center mb-24 initial={{ opacity: 0, y: 50 }}
+            transition duration-300 shadow-lg`,children:[(0,Q.jsx)(`div`,{className:`text-purple-400 mb-6`,children:e.icon}),(0,Q.jsx)(`h3`,{className:`text-xl font-semibold`,children:e.name})]},t))})]})}function ph(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{className:`text-center mb-24 initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4`,children:`EXPERIENCE`}),(0,Q.jsx)(`h1`,{className:`text-5xl font-bold`,children:`My Journey`})]}),(0,Q.jsxs)(`div`,{className:`max-w-4xl mx-auto relative`,children:[(0,Q.jsx)(`div`,{className:`absolute left-1/2 top-0 w-1 h-full bg-purple-500/30 transform -translate-x-1/2`}),(0,Q.jsx)(`div`,{className:`space-y-20`,children:[{year:`Sep 2025 - Present`,title:`Co Lead - Design Team`,company:`FYI CLUB - VIT BHOPAL`,description:`Leading the design team by managing event branding, social media creatives, posters, and visual identity for club activities.`},{year:`Nov 2024 - Sep 2025`,title:`Graphic Designer`,company:`FYI CLUB - VIT BHOPAL`,description:`Designed posters, promotional materials, event assets, and digital creatives for multiple technical and cultural events.`},{year:`Aug 2025 - Present`,title:`Graphic Designer`,company:`MHARO RAJASTHAN CLUB`,description:`Creating event branding, social media posts, and promotional graphics for cultural activities and club events.`}].map((e,t)=>(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.7,delay:t*.2},viewport:{once:!0},className:`relative flex items-center ${t%2==0?`justify-start`:`justify-end`}`,children:[(0,Q.jsxs)(`div`,{className:`w-full md:w-[45%] bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-purple-400 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(168,85,247,0.2)] transition duration-300`,children:[(0,Q.jsx)(`h3`,{className:`text-purple-400 text-lg font-semibold mb-2`,children:e.year}),(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.title}),(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.company}),(0,Q.jsx)(`p`,{className:`text-gray-300 leading-relaxed`,children:e.description})]}),(0,Q.jsx)($.div,{initial:{scale:0},whileInView:{scale:1},transition:{duration:.4,delay:t*.2},viewport:{once:!0},className:`absolute left-1/2 w-6 h-6
                 bg-purple-500 rounded-full border-4 border-[#050816]
-                transform -translate-x-1/2`})]},t))})]})]})}function ph(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 right-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`text-center mb-24`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4`,children:`PROJECTS`}),(0,Q.jsx)(`h1`,{className:`text-5xl md:text-6xl font-bold mb-6`,children:`Featured Work`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg max-w-2xl mx-auto`,children:`Some of the projects I’ve built using modern technologies, focusing on performance, scalability, and user experience.`})]}),(0,Q.jsx)(`div`,{className:`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10`,children:[{title:`360 Campus Tour`,description:`A 360 degree campus tour for The VIT Bhopal like Google Street view`,tech:`Pendulam • JS `,gradient:`from-purple-500/30 to-cyan-500/30`},{title:`Expense-Tracker`,description:`Real-time MERN stack chat application with authentication and live messaging.`,tech:`Render • Node.js • MongoDB`,gradient:`from-cyan-500/30 to-purple-500/30`},{title:`Infinte Runner 2D Game`,description:`user-friendly game for children to understand basic mathematics.`,tech:`Unity Engine • C# • Assets`,gradient:`from-pink-500/30 to-purple-500/30`}].map((e,t)=>(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.7,delay:t*.2},viewport:{once:!0},whileHover:{y:-10},className:`
+                transform -translate-x-1/2`})]},t))})]})]})}function mh(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 right-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:50},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`text-center mb-24`,children:[(0,Q.jsx)(`h2`,{className:`text-purple-400 text-xl font-semibold mb-4 tracking-widest`,children:`PROJECTS`}),(0,Q.jsx)(`h1`,{className:`text-5xl md:text-6xl font-bold mb-6`,children:`Featured Work`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed`,children:`A collection of projects built using modern technologies, focusing on performance, beautiful UI, scalability, and seamless user experiences.`})]}),(0,Q.jsx)(`div`,{className:`max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10`,children:[{title:`360 Campus Tour`,description:`A 360 degree campus tour for VIT Bhopal inspired by Google Street View with immersive navigation experience.`,tech:`Pendulum • JavaScript • 360° Experience`,image:`/campus-tour.png`,live:`https://interactive-360-virtual-tour.netlify.app/`,github:`https://github.com/mananladha`,gradient:`from-purple-500/30 to-cyan-500/30`},{title:`Expense Tracker`,description:`Modern expense tracking web application with analytics, clean UI and real-time transaction management.`,tech:`React • Node.js • MongoDB • Express`,image:`/expense-tracker.png`,live:`https://expense-tracker.mananladha.in/`,github:`https://github.com/mananladha/expense-tracker`,gradient:`from-cyan-500/30 to-purple-500/30`},{title:`Infinite Runner 2D Game`,description:`Interactive educational game designed for children to learn mathematics in a fun and engaging way.`,tech:`Unity • C# • Game Development`,image:`/infinite-runner.png`,github:`https://github.com/mananladha`,gradient:`from-pink-500/30 to-purple-500/30`}].map((e,t)=>(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.7,delay:t*.2},viewport:{once:!0},whileHover:{y:-10,scale:1.02},className:`
             relative
             bg-white/10
             backdrop-blur-2xl
@@ -274,31 +294,58 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             rounded-[32px]
             overflow-hidden
             hover:border-purple-400
-            transition duration-300
+            transition duration-500
             hover:shadow-[0_0_50px_rgba(168,85,247,0.25)]
+            group
             `,children:[(0,Q.jsx)(`div`,{className:`
+              absolute inset-0
+              bg-gradient-to-br
+              from-purple-500/5
+              to-cyan-500/5
+              opacity-0
+              group-hover:opacity-100
+              transition duration-500
+              `}),(0,Q.jsx)(`div`,{className:`
+              relative
               h-56
+              overflow-hidden
               bg-gradient-to-br
               ${e.gradient}
-              flex items-center justify-center
-              `,children:(0,Q.jsx)(`h2`,{className:`text-3xl font-bold text-white/80`,children:`Project`})}),(0,Q.jsxs)(`div`,{className:`p-8`,children:[(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.title}),(0,Q.jsx)(`p`,{className:`text-gray-300 leading-relaxed mb-6`,children:e.description}),(0,Q.jsx)(`div`,{className:`text-purple-400 font-medium mb-8`,children:e.tech}),(0,Q.jsxs)(`div`,{className:`flex gap-4`,children:[(0,Q.jsx)(`button`,{className:`
-                  bg-gradient-to-r from-purple-500 to-purple-700
-                  hover:scale-105
-                  transition duration-300
-                  px-6 py-3
-                  rounded-full
-                  font-semibold
-                  shadow-[0_0_30px_rgba(168,85,247,0.4)]
-                  `,children:`Live Demo`}),(0,Q.jsx)(`button`,{className:`
-                  border border-white/20
-                  bg-white/5
-                  hover:bg-white/10
-                  hover:scale-105
-                  transition duration-300
-                  px-6 py-3
-                  rounded-full
-                  font-semibold
-                  `,children:`GitHub`})]})]})]},t))})]})}function mh(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)(`div`,{className:`max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-24`,children:[(0,Q.jsxs)($.div,{initial:{opacity:0,x:-80},whileInView:{opacity:1,x:0},transition:{duration:.8},viewport:{once:!0},className:`lg:w-1/2 flex justify-center relative`,children:[(0,Q.jsx)(`div`,{className:`absolute w-[420px] h-[420px] bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full blur-3xl opacity-30`}),(0,Q.jsx)(`div`,{className:`absolute w-[430px] h-[430px] border border-white/10 rounded-full animate-pulse`}),(0,Q.jsx)(`div`,{className:`
+              `,children:(0,Q.jsx)(`img`,{src:e.image,alt:e.title,className:`
+                w-full
+                h-full
+                object-cover
+                transition duration-700
+                group-hover:scale-110
+                `})}),(0,Q.jsxs)(`div`,{className:`relative p-8 z-10`,children:[(0,Q.jsx)(`h2`,{className:`text-2xl font-bold mb-4`,children:e.title}),(0,Q.jsx)(`p`,{className:`text-gray-300 leading-relaxed mb-6`,children:e.description}),(0,Q.jsx)(`div`,{className:`flex flex-wrap gap-2 mb-8`,children:e.tech.split(` • `).map((e,t)=>(0,Q.jsx)(`span`,{className:`
+                    px-3 py-1
+                    bg-purple-500/10
+                    border border-purple-400/20
+                    text-purple-300
+                    rounded-full
+                    text-sm
+                    `,children:e},t))}),(0,Q.jsxs)(`div`,{className:`flex gap-4`,children:[e.live&&(0,Q.jsxs)(`a`,{href:e.live,target:`_blank`,rel:`noopener noreferrer`,className:`
+                    flex items-center gap-2
+                    bg-gradient-to-r
+                    from-purple-500
+                    to-cyan-500
+                    hover:scale-105
+                    transition duration-300
+                    px-6 py-3
+                    rounded-full
+                    font-semibold
+                    shadow-[0_0_30px_rgba(168,85,247,0.4)]
+                    `,children:[(0,Q.jsx)(zm,{}),`Live Demo`]}),e.github&&(0,Q.jsxs)(`a`,{href:e.github,target:`_blank`,rel:`noopener noreferrer`,className:`
+                    flex items-center gap-2
+                    border border-white/20
+                    bg-white/5
+                    hover:bg-white/10
+                    hover:scale-105
+                    transition duration-300
+                    px-6 py-3
+                    rounded-full
+                    font-semibold
+                    `,children:[(0,Q.jsx)(Am,{}),`GitHub`]})]})]})]},t))})]})}function hh(){return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)(`div`,{className:`max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-24`,children:[(0,Q.jsxs)($.div,{initial:{opacity:0,x:-80},whileInView:{opacity:1,x:0},transition:{duration:.8},viewport:{once:!0},className:`lg:w-1/2 flex justify-center relative`,children:[(0,Q.jsx)(`div`,{className:`absolute w-[420px] h-[420px] bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full blur-3xl opacity-30`}),(0,Q.jsx)(`div`,{className:`absolute w-[430px] h-[430px] border border-white/10 rounded-full animate-pulse`}),(0,Q.jsx)(`div`,{className:`
             relative
             bg-white/10
             backdrop-blur-2xl
@@ -306,7 +353,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             p-5
             rounded-[40px]
             shadow-2xl
-            `,children:(0,Q.jsx)(`img`,{src:`/src/assets/mananimage.jpg`,alt:`Manan`,className:`
+            `,children:(0,Q.jsx)(`img`,{src:`/mananimage.jpg`,alt:`Manan`,className:`
               w-[350px]
               md:w-[400px]
               rounded-[30px]
@@ -327,7 +374,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               p-8
               hover:border-cyan-400
               transition duration-300
-              `,children:[(0,Q.jsx)(`h2`,{className:`text-5xl font-bold text-cyan-400 mb-3`,children:`1+`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg`,children:`Years Learning`})]})]})]})]})]})}ch.init(`QC0tm7J1LheIuk7J3`);function hh(){let e=(0,b.useRef)(),t=async e=>{e.preventDefault();let t={name:e.target.user_name.value,email:e.target.user_email.value,message:e.target.message.value};try{let n=await ch.send(`service_wrzr9pw`,`template_p4auzhn`,t,`QC0tm7J1LheIuk7J3`);console.log(n),alert(`Message Sent Successfully!`),e.target.reset()}catch(e){console.log(e),alert(`Failed to send message.`)}};return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`
+              `,children:[(0,Q.jsx)(`h2`,{className:`text-5xl font-bold text-cyan-400 mb-3`,children:`1+`}),(0,Q.jsx)(`p`,{className:`text-gray-300 text-lg`,children:`Years Learning`})]})]})]})]})]})}lh.init(`QC0tm7J1LheIuk7J3`);function gh(){let e=(0,b.useRef)(),t=async e=>{e.preventDefault();let t={name:e.target.user_name.value,email:e.target.user_email.value,message:e.target.message.value};try{let n=await lh.send(`service_wrzr9pw`,`template_p4auzhn`,t,`QC0tm7J1LheIuk7J3`);console.log(n),alert(`Message Sent Successfully!`),e.target.reset()}catch(e){console.log(e),alert(`Failed to send message.`)}};return(0,Q.jsxs)(`section`,{className:`bg-transparent text-white py-32 px-8 relative overflow-hidden`,children:[(0,Q.jsx)(`div`,{className:`absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsx)(`div`,{className:`absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20`}),(0,Q.jsxs)($.div,{initial:{opacity:0,y:80},whileInView:{opacity:1,y:0},transition:{duration:.8},viewport:{once:!0},className:`
         max-w-7xl mx-auto
         bg-white/10
         backdrop-blur-2xl
@@ -424,7 +471,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                   rounded-2xl
                   font-semibold
                   shadow-[0_0_40px_rgba(168,85,247,0.4)]
-                  `,children:`Send Message`})]})})]})]})]})}function gh(){let[e,t]=(0,b.useState)({x:0,y:0}),{scrollYProgress:n}=om();return(0,Q.jsxs)(`div`,{onMouseMove:e=>{t({x:e.clientX,y:e.clientY})},className:`relative min-h-screen overflow-x-hidden`,children:[(0,Q.jsx)($.div,{className:`fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference`,animate:{x:e.x-4,y:e.y-4},transition:{type:`spring`,stiffness:500,damping:30},children:(0,Q.jsx)(`div`,{className:`w-2 h-2 bg-white rounded-full`})}),(0,Q.jsx)($.div,{className:`fixed top-0 left-0 pointer-events-none z-[9998]`,animate:{x:e.x-20,y:e.y-20},transition:{type:`spring`,stiffness:150,damping:20},children:(0,Q.jsx)(`div`,{className:`w-10 h-10 rounded-full border border-purple-400/60`})}),(0,Q.jsxs)(`div`,{className:`fixed inset-0 z-0 overflow-hidden pointer-events-none`,children:[(0,Q.jsx)(`div`,{className:`absolute inset-0 bg-[#050816]`}),(0,Q.jsx)($.div,{animate:{x:[0,200,-100,0],y:[0,-150,100,0],scale:[1,1.3,.9,1]},transition:{duration:25,repeat:1/0,ease:`easeInOut`},className:`
+                  `,children:`Send Message`})]})})]})]})]})}function _h(){let[e,t]=(0,b.useState)({x:0,y:0}),{scrollYProgress:n}=om();return(0,Q.jsxs)(`div`,{onMouseMove:e=>{t({x:e.clientX,y:e.clientY})},className:`relative min-h-screen overflow-x-hidden`,children:[(0,Q.jsx)($.div,{className:`fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference`,animate:{x:e.x-4,y:e.y-4},transition:{type:`spring`,stiffness:500,damping:30},children:(0,Q.jsx)(`div`,{className:`w-2 h-2 bg-white rounded-full`})}),(0,Q.jsx)($.div,{className:`fixed top-0 left-0 pointer-events-none z-[9998]`,animate:{x:e.x-20,y:e.y-20},transition:{type:`spring`,stiffness:150,damping:20},children:(0,Q.jsx)(`div`,{className:`w-10 h-10 rounded-full border border-purple-400/60`})}),(0,Q.jsxs)(`div`,{className:`fixed inset-0 z-0 overflow-hidden pointer-events-none`,children:[(0,Q.jsx)(`div`,{className:`absolute inset-0 bg-[#050816]`}),(0,Q.jsx)($.div,{animate:{x:[0,200,-100,0],y:[0,-150,100,0],scale:[1,1.3,.9,1]},transition:{duration:25,repeat:1/0,ease:`easeInOut`},className:`
           absolute
           top-[-10%]
           left-[-10%]
@@ -486,4 +533,4 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     rounded-full
     blur-3xl
     opacity-20
-    `,style:{width:`${120+t*40}px`,height:`${120+t*40}px`,background:t%2==0?`rgba(168,85,247,0.4)`:`rgba(34,211,238,0.4)`,top:`${Math.random()*100}%`,left:`${Math.random()*100}%`}},t)),(0,Q.jsx)(`div`,{className:`relative z-10`,children:(0,Q.jsxs)(Mn,{children:[(0,Q.jsx)(sm,{}),(0,Q.jsxs)(Wt,{children:[(0,Q.jsx)(Ht,{path:`/`,element:(0,Q.jsx)(uh,{})}),(0,Q.jsx)(Ht,{path:`/skills`,element:(0,Q.jsx)(dh,{})}),(0,Q.jsx)(Ht,{path:`/experience`,element:(0,Q.jsx)(fh,{})}),(0,Q.jsx)(Ht,{path:`/projects`,element:(0,Q.jsx)(ph,{})}),(0,Q.jsx)(Ht,{path:`/about`,element:(0,Q.jsx)(mh,{})}),(0,Q.jsx)(Ht,{path:`/connect`,element:(0,Q.jsx)(hh,{})})]}),(0,Q.jsx)(cm,{})]})})]})}(0,x.createRoot)(document.getElementById(`root`)).render((0,Q.jsx)(b.StrictMode,{children:(0,Q.jsx)(gh,{})}));
+    `,style:{width:`${120+t*40}px`,height:`${120+t*40}px`,background:t%2==0?`rgba(168,85,247,0.4)`:`rgba(34,211,238,0.4)`,top:`${Math.random()*100}%`,left:`${Math.random()*100}%`}},t)),(0,Q.jsx)(`div`,{className:`relative z-10`,children:(0,Q.jsxs)(Mn,{children:[(0,Q.jsx)(sm,{}),(0,Q.jsxs)(Wt,{children:[(0,Q.jsx)(Ht,{path:`/`,element:(0,Q.jsx)(dh,{})}),(0,Q.jsx)(Ht,{path:`/skills`,element:(0,Q.jsx)(fh,{})}),(0,Q.jsx)(Ht,{path:`/experience`,element:(0,Q.jsx)(ph,{})}),(0,Q.jsx)(Ht,{path:`/projects`,element:(0,Q.jsx)(mh,{})}),(0,Q.jsx)(Ht,{path:`/about`,element:(0,Q.jsx)(hh,{})}),(0,Q.jsx)(Ht,{path:`/connect`,element:(0,Q.jsx)(gh,{})})]}),(0,Q.jsx)(cm,{})]})})]})}(0,x.createRoot)(document.getElementById(`root`)).render((0,Q.jsx)(b.StrictMode,{children:(0,Q.jsx)(_h,{})}));
