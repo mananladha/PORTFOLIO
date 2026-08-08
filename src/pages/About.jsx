@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import LineReveal from "../components/LineReveal";
 
 function About() {
   return (
@@ -6,7 +7,6 @@ function About() {
 
       {/* Glow Effects */}
       <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20"></div>
-
       <div className="absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
 
       {/* Main Container */}
@@ -56,29 +56,20 @@ function About() {
         </motion.div>
 
         {/* RIGHT CONTENT */}
-        <motion.div
-          initial={{ opacity: 0, x: 80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="lg:w-1/2"
-        >
+        <div className="lg:w-1/2">
+          {/* Heading with LineReveal */}
+          <LineReveal
+            lines={["ABOUT ME"]}
+            className="text-purple-400 text-xl font-semibold mb-4 tracking-[0.2em] font-mono uppercase"
+          />
 
-          {/* Heading */}
-          <h2 className="text-purple-400 text-xl font-semibold mb-4">
-            ABOUT ME
-          </h2>
-
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">
-
-            Passionate About
-            <br />
-
-            <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-              Building Digital Experiences
-            </span>
-
-          </h1>
+          <LineReveal
+            lines={[
+              "Passionate About",
+              "Building Digital Experiences"
+            ]}
+            className="text-5xl md:text-6xl font-bold leading-tight mb-8 text-white"
+          />
 
           {/* Description */}
           <p className="text-gray-300 text-lg leading-relaxed mb-8">
@@ -151,7 +142,7 @@ function About() {
 
           </div>
 
-        </motion.div>
+        </div>
 
       </div>
 

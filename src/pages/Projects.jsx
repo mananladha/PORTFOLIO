@@ -1,93 +1,69 @@
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
+import LineReveal from "../components/LineReveal";
 
 function Projects() {
-
   const projects = [
     {
       title: "360 Campus Tour",
-
       description:
         "A 360 degree campus tour for VIT Bhopal inspired by Google Street View with immersive navigation experience.",
-
       tech: "Pendulum • JavaScript • 360° Experience",
-
       image: "/campus-tour.png",
-
       live: "https://interactive-360-virtual-tour.netlify.app/",
-
       github: "https://github.com/mananladha",
-
       gradient: "from-purple-500/30 to-cyan-500/30",
     },
-
     {
       title: "Expense Tracker",
-
       description:
         "Modern expense tracking web application with analytics, clean UI and real-time transaction management.",
-
       tech: "React • Node.js • MongoDB • Express",
-
       image: "/expense-tracker.png",
-
       live: "https://expense-tracker.mananladha.in/",
-
       github: "https://github.com/mananladha/expense-tracker",
-
       gradient: "from-cyan-500/30 to-purple-500/30",
     },
-
     {
       title: "Infinite Runner 2D Game",
-
       description:
         "Interactive educational game designed for children to learn mathematics in a fun and engaging way.",
-
       tech: "Unity • C# • Game Development",
-
       image: "/infinite-runner.png",
-
       github: "https://github.com/mananladha",
-
       gradient: "from-pink-500/30 to-purple-500/30",
     },
   ];
 
   return (
-
     <section className="bg-transparent text-white py-32 px-8 relative overflow-hidden">
 
       {/* Background Glow */}
       <div className="absolute top-20 right-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20"></div>
-
       <div className="absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
 
       {/* Heading */}
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-        className="text-center mb-24"
-      >
+      <div className="text-center mb-24 relative z-10">
+        <LineReveal
+          lines={["PROJECTS"]}
+          className="text-purple-400 text-xl font-semibold mb-4 tracking-widest font-mono uppercase"
+        />
 
-        <h2 className="text-purple-400 text-xl font-semibold mb-4 tracking-widest">
-          PROJECTS
-        </h2>
+        <LineReveal
+          lines={["Featured Work"]}
+          className="text-5xl md:text-6xl font-bold mb-6 text-white"
+        />
 
-        <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Featured Work
-        </h1>
-
-        <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
-          A collection of projects built using modern technologies,
-          focusing on performance, beautiful UI, scalability,
-          and seamless user experiences.
-        </p>
-
-      </motion.div>
+        <LineReveal
+          lines={[
+            "A collection of projects built using modern technologies,",
+            "focusing on performance, beautiful UI, scalability,",
+            "and seamless user experiences."
+          ]}
+          className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed"
+        />
+      </div>
 
       {/* Project Grid */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

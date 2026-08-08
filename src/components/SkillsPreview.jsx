@@ -15,6 +15,8 @@ import {
 } from "react-icons/si";
 
 import { motion } from "framer-motion";
+import LineReveal from "./LineReveal";
+
 function SkillsPreview() {
   const skills = [
     {
@@ -69,7 +71,7 @@ function SkillsPreview() {
   ];
 
   return (
-  <div className="w-full bg-transparent relative z-10 text-white py-32 px-8 relative overflow-hidden">
+  <section id="skills" className="w-full bg-transparent relative z-10 text-white py-32 px-8 relative overflow-hidden">
 
     {/* Glow Effects */}
       <motion.div
@@ -91,23 +93,24 @@ function SkillsPreview() {
         "
       ></motion.div>
 
-    <div className="absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
+    <div className="text-center mb-16 relative z-10">
+      <LineReveal
+        lines={["SKILLS"]}
+        className="text-purple-400 text-lg tracking-[0.35em] uppercase mb-4 font-mono font-semibold"
+      />
 
-    {/* Heading */}
-    <div className="text-center mb-20">
+      <LineReveal
+        lines={["Crafting Digital", "Experiences"]}
+        className="text-5xl md:text-6xl font-bold leading-tight text-white"
+      />
 
-      <h2 className="text-purple-400 text-xl font-semibold mb-4">
-        MY SKILLS
-      </h2>
-
-      <h1 className="text-5xl font-bold">
-        Technologies I Work With
-      </h1>
-
+      <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
+        Modern technologies I use to build fast, scalable and beautiful applications.
+      </p>
     </div>
 
     {/* Skills Grid */}
-    <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+    <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
 
       {skills.map((skill, index) => (
 
@@ -139,7 +142,7 @@ function SkillsPreview() {
 
     </div>
 
-  </div>
+  </section>
 );
 }
 

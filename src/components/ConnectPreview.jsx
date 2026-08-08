@@ -43,7 +43,7 @@ const sendEmail = async (e) => {
   }
 };
   return (
-    <section className="bg-transparent text-white py-32 px-8 relative overflow-hidden">
+    <section id="connect" className="bg-transparent text-white py-32 px-8 relative overflow-hidden">
 
       {/* Glow Effects */}
       <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-20"></div>

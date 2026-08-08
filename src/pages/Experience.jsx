@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-function Experience() {
+import LineReveal from "../components/LineReveal";
 
+function Experience() {
   const experiences = [
     {
       year: "Sep 2025 - Present",
@@ -9,7 +10,6 @@ function Experience() {
       description:
         "Leading the design team by managing event branding, social media creatives, posters, and visual identity for club activities.",
     },
-
     {
       year: "Nov 2024 - Sep 2025",
       title: "Graphic Designer",
@@ -17,7 +17,6 @@ function Experience() {
       description:
         "Designed posters, promotional materials, event assets, and digital creatives for multiple technical and cultural events.",
     },
-
     {
       year: "Aug 2025 - Present",
       title: "Graphic Designer",
@@ -33,22 +32,17 @@ function Experience() {
       {/* Glow */}
       <div className="absolute bottom-20 left-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
 
-      {/* Heading */}
-      <motion.div className="text-center mb-24 initial={{ opacity: 0, y: 50 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8 }}
-                  viewport={{ once: true }}"
-      >
+      <div className="text-center mb-24 relative z-10">
+        <LineReveal
+          lines={["EXPERIENCE"]}
+          className="text-purple-400 text-xl font-semibold mb-4 tracking-[0.2em] font-mono uppercase"
+        />
 
-        <h2 className="text-purple-400 text-xl font-semibold mb-4">
-          EXPERIENCE
-        </h2>
-
-        <h1 className="text-5xl font-bold">
-          My Journey
-        </h1>
-
-      </motion.div>
+        <LineReveal
+          lines={["My Journey"]}
+          className="text-5xl font-bold text-white"
+        />
+      </div>
 
       {/* Timeline */}
       <div className="max-w-4xl mx-auto relative">

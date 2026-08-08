@@ -14,6 +14,9 @@ import {
   SiExpress,
 } from "react-icons/si";
 
+import { motion } from "framer-motion";
+import LineReveal from "../components/LineReveal";
+
 function Skills() {
   const skills = [
     {
@@ -76,20 +79,20 @@ function Skills() {
       <div className="absolute bottom-20 right-20 w-72 h-72 bg-cyan-500 rounded-full blur-3xl opacity-20"></div>
 
       {/* Heading */}
-      <div className="text-center mb-20">
+      <div className="text-center mb-20 relative z-10">
+        <LineReveal
+          lines={["MY SKILLS"]}
+          className="text-purple-400 text-xl font-semibold mb-4 tracking-[0.2em] font-mono uppercase"
+        />
 
-        <h2 className="text-purple-400 text-xl font-semibold mb-4">
-          MY SKILLS
-        </h2>
-
-        <h1 className="text-5xl font-bold">
-          Technologies I Work With
-        </h1>
-
+        <LineReveal
+          lines={["Technologies I Work With"]}
+          className="text-5xl font-bold text-white"
+        />
       </div>
 
       {/* Skills Grid */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8">
 
         {skills.map((skill, index) => (
           <div
